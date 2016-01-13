@@ -1,11 +1,15 @@
 $(document).ready(function() {
 
-  var age = confirm("Are you 21 or older?");
+  var like = prompt("Do you like animals?").toLowerCase();
 
-  if (age === true) {
-    $(".over21").show();
-  } else {
-    $(".under21").show();
+  if (like === "yes") {
+    $(".animals").show();
+  } else if(like === "no") {
+    alert("How dare you.");
+  } else{
+    alert("Please say yes or no.")
   };
+
+
 
 });

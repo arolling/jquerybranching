@@ -1,7 +1,7 @@
-.over21 {
-  display:none;
+.hideme {
+  display: none;
 }
 
-.under21 {
+.animals {
   display:none;
 }
